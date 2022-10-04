@@ -5,7 +5,7 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
     private Rigidbody2D rb;
-    public float strength = 10f;
+    public float strength = 50000f;
 
     void Start()
     {
