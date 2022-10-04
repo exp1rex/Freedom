@@ -6,6 +6,7 @@ public class Player : MonoBehaviour
 {
     private Rigidbody2D rb;
     public float strength = 10f;
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
